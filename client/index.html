@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>jsproxy</title>
+  <!-- <meta http-equiv="Refresh" content="10";/> -->
+  <!-- <script src="wasm_exec.js"></script> -->
+  <script>
+    // const go = new Go();
+    // wasm = "agent.wasm";
+    // WebAssembly.instantiateStreaming(fetch(wasm), go.importObject).then(({ instance }) => go.run(instance));
+    navigator.serviceWorker.register('sw.js');
+  </script>
+</head>
+
+<body>
+  <h1>jsproxy</h1>
+  <h2>ServiceWorker + Go WebAssembly + WebSocket + Http Proxy</h2>
+</body>
+
+</html>

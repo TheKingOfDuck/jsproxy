@@ -13,6 +13,7 @@ ServiceWorker + Go WebAssembly + WebSocket + Http Proxy
 主要分为两个部分：
 
 1.服务端：监听了两个端口，一个是http代理端口，一个是ws端口，http代理端口收到请求信息后通过ws传给访问者浏览器的wasm程序来处理。
+
 2.客户端：用sw将wasm程序驻留在浏览器，然后通过ws与服务端建立联系，执行完服务端发送的请求后传给服务端做进一步处理。
 
 ### 使用说明

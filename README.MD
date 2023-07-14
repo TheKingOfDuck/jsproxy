@@ -38,6 +38,10 @@ go run ws.go
 
 ![](images/jsproxy.jpg)
 
+### 使用场景
+
+水坑漏洞保护,XSS深度利用等等。
+
 ### 已知弊端
 1.支持不了socks5,因为浏览器不支持发送tcp包。
 
